@@ -2,7 +2,7 @@
 
 COUNTER=0
 while true; do
-    ./bauhaus.py;
+    ./kandinsky.py;
     sudo ./display.py example.png;
     sleep 300;
     ((COUNTER++));
