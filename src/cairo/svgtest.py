@@ -9,15 +9,14 @@ import cairosvg
 #
 
 #
-# don't get fancy with colors, we're only 16 level grayscale on
+# don't get fancy with colors, we're dithered monochrome grayscale on
 # the output end. gradients and such should probably be restained.
-# the display code will resample the palette to grayscale, so
-# luminance is what counts.
 #
 with cairo.SVGSurface("example.svg", 400 * .75, 300 * .75) as surface:
     context = cairo.Context(surface)
     x, y, x1, y1 = 0.1, 0.5, 0.4, 0.9
     x2, y2, x3, y3 = 0.6, 0.1, 0.9, 0.5
+    context.set_source_rgba(1, 1.0, 1.0, 1.0)
     context.scale(400 * .75, 300 * .75)
     context.set_line_width(0.04)
     context.move_to(x, y)

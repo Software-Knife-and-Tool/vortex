@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300pt" height="225pt" viewBox="0 0 300 225" version="1.1">
 <g id="surface1">
-<path style="fill:none;stroke-width:0.04;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 0.1 0.5 C 0.4 0.9 0.6 0.1 0.9 0.5 " transform="matrix(300,0,0,225,0,0)"/>
-<path style="fill:none;stroke-width:0.02;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,50%,50%);stroke-opacity:0.5;stroke-miterlimit:10;" d="M 0.1 0.5 L 0.4 0.9 M 0.6 0.1 L 0.9 0.5 " transform="matrix(300,0,0,225,0,0)"/>
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(50%,50%,50%);fill-opacity:1;" d="M 263.25 112.5 C 263.25 170.902344 215.90625 218.246094 157.503906 218.25 C 99.101562 218.253906 51.753906 170.910156 51.75 112.511719 C 51.746094 54.109375 99.082031 6.757812 157.484375 6.75 C 215.886719 6.742188 263.238281 54.078125 263.25 112.480469 "/>
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 157.5 112.5 L 254.929688 168.75 C 245.054688 185.851562 230.851562 200.054688 213.75 209.929688 "/>
 </g>
 </svg>
