@@ -1,0 +1,9 @@
+{
+    "arial": {
+        "face": "Arial",
+        "style": "FONT_SLANT_NORMAL",
+        "weight": "FONT_WEIGHT_NORMAL"
+    },
+    "stroke": { "width": "0.015", "color": ["0.5", "0.5", "0.5"] },
+    "gnomon": { "radius": "0.04", "color": ["0.0", "0.0", "0.0"] }
+}
