@@ -3,7 +3,7 @@
 ##
 ##  SPDX-License-Identifier: MIT
 ##
-##  Copyright (c) 2017-2022 James M. Putnam <putnamjm.design@gmail.com>
+##  Copyright (c) 2022 James M. Putnam <putnamjm.design@gmail.com>
 ##
 ##########
 
@@ -33,14 +33,13 @@ def path(path, file_name):
 
 # static configuration
 conf_dict = []
-with open(path(__file__, './text.json'), 'r') as file:
+with open(path(__file__, './fonts.json'), 'r') as file:
     conf_dict = json.load(file)
 
-fonts = conf_dict['font']
 surface = cairo.ImageSurface(cairo.FORMAT_RGB24,
                              WIDTH*PIXEL_SCALE,
                              HEIGHT*PIXEL_SCALE)
-
+x
 ctx = cairo.Context(surface)
 ctx.scale(PIXEL_SCALE, PIXEL_SCALE)
 
@@ -51,9 +50,11 @@ ctx.fill()
 # Drawing code
 ctx.set_source_rgb(1, 1, 1)
 ctx.set_font_size(0.25)
-ctx.select_font_face(fonts['face'],
-                     getattr(cairo, fonts["style"]), # cairo.FONT_SLANT_NORMAL,
-                     getattr(cairo, fonts["weight"]))
+
+arial = conf_dict['arial']
+ctx.select_font_face(arial['face'],
+                     getattr(cairo, arial["style"]),
+                     getattr(cairo, arial["weight"]))
 
 ctx.move_to(0.5, 0.5)
 ctx.show_text('Drawing text')
