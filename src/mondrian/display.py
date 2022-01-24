@@ -33,7 +33,7 @@ y1 = h_new
 # Crop image
 img = img.crop((x0, y0, x1, y1))
 
-# Convert the image to use a white / black / red colour palette
+# Convert the image to use a white / black colour palette
 pal_img = Image.new("P", (1, 1))
 pal_img.putpalette((255, 255, 255, 0, 0, 0) + (0, 0, 0) * 253)
 

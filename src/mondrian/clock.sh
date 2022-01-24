@@ -2,7 +2,7 @@
 
 COUNTER=0
 while true; do
-    ./circles.py;
+    sudo ./circles.py;
     sudo ./display.py example.png;
     sleep 300;
     ((COUNTER++));
