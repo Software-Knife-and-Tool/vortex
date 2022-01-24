@@ -1,2 +1,5 @@
 .DS_Store
 py-spidev
+example.svg
+example.png
+__pycache__
