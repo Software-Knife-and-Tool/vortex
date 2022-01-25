@@ -39,7 +39,7 @@ with open(path(__file__, './fonts.json'), 'r') as file:
 surface = cairo.ImageSurface(cairo.FORMAT_RGB24,
                              WIDTH*PIXEL_SCALE,
                              HEIGHT*PIXEL_SCALE)
-x
+
 ctx = cairo.Context(surface)
 ctx.scale(PIXEL_SCALE, PIXEL_SCALE)
 
