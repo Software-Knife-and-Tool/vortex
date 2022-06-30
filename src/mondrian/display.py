@@ -22,7 +22,7 @@ w_new = int((float(w) / h) * h_new)
 w_cropped = 400
 
 # Resize the image with high-quality resampling
-img = img.resize((w_new, h_new), Image.Resampling.LANCZOS)
+img = img.resize((w_new, h_new), resample=Image.LANCZOS)
 
 # Calculate coordinates to crop image to 400 pixels wide
 x0 = (w_new - w_cropped) / 2
