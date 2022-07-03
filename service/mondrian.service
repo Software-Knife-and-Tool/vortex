@@ -1,0 +1,14 @@
+[Unit]
+Description=mondrian
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=putnamjm
+WorkingDirectory=/home/putnamjm/vortex/src/mondrian4
+ExecStart=sudo /home/putnamjm/vortex/src/mondrian4/clock.sh
+
+[Install]
+WantedBy=multi-user.target

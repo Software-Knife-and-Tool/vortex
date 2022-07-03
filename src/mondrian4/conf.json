@@ -4,9 +4,9 @@
         "style": "FONT_SLANT_NORMAL",
         "weight": "FONT_WEIGHT_NORMAL"
     },
-    "face": { "width": "0.015", "color": ["0.0", "0.0", "1.0"] },
-    "gnomon": { "radius": "0.04", "color": ["1.0", "1.0", "1.0"] },
-    "minutes": { "radius": "0.04", "color": ["0.0", "0.0", "0.0"] },
+    "face": { "width": "0.015", "color": ["0.0", "0.0", "0.75"] },
+    "gnomon": { "radius": "0.04", "color": ["1.0", "1.0", "0.0"] },
+    "minutes": { "radius": "0.04", "color": ["0.75", "0.0", "0.0"] },
     "render": [
         { "cx": { "x": ".5", "y": ".3", "r": "0" }},
         { "ln": { "x0": ".7", "y0": ".5", "x1": ".5", "y1": ".3", "w": ".25", "color": [".95", ".95", ".95"] }}
