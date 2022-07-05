@@ -1,17 +1,23 @@
-# *Vortex* SVG e-ink display
+# Vortex Instrument Labs - Vortex E-Ink Clocks
 
-A series of Python experiments using the *Pimoroni Inky e-ink what* (https://shop.pimoroni.com/products/inky-what?variant=13590497624147)
-as an auxiliary grayscale display. Animation isn't really possible, but it should be an acceptable target for static SVG output.
+_Beating Yesterday's Technology Senseless_
+
+A series of Python experiments using the 
+
+*Pimoroni Inky e-ink WHAT* (https://shop.pimoroni.com/products/inky-what?variant=13590497624147)</br>
+*Pimoroni Inky e-ink Impression 4* (https://shop.pimoroni.com/products/inky-impression-4?variant=39599238807635
+
+Animation isn't really possible, but it should be an acceptable target for static output.
 
 ### System preparation
 
-You'll need an RPi with a recent install of Raspbian and SPI enabled.
+You'll need an RPi with a recent install of Raspberry Pi OS and SPI enabled.
 
 ### Installing
 
 `sudo make install`
 
-will install the Pimoroni driver, compile and install the Python SPI driver, and all the Python support.
+will install the Pimoroni driver and all the Python support.
 
 If you need to reinstall for some reason,
 
@@ -19,13 +25,11 @@ If you need to reinstall for some reason,
 
 first.
 
-### Running the moon phase clock
+### Running the Mondrian clock
 
-`cd src/moon`
-`nohup ./moon.sh > /dev/null`
+mondrian for the WHAT and mondrian4 for the Impression 4
 
-should get you a moon phase clock more or less at 5 minute intervals.
+`cd src/mondrian`
+`nohup ./clock.sh > /dev/null`
 
-### Next
-
-Python SVG (maybe Cairo) and cleanup.
+should get you a simple geometric clock face more or less at 5 minute intervals.
