@@ -13,6 +13,7 @@ install:
 	@apt-get -y -qq install libcairo2-dev
 	@apt-get -y -qq install pkg-config
 	@apt-get -y -qq install cairosvg
+	@apt-get -y -qq install libatlas-base-dev
 
 	@pip3 -q install Pillow
 	@pip3 -q install wiringpi
