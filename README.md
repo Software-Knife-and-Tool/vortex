@@ -11,7 +11,7 @@ Animation isn't really possible, but it should be an acceptable target for stati
 
 ### System preparation
 
-You'll need an RPi with a recent install of Raspberry Pi OS and SPI enabled.
+You'll need an RPi with a recent install of Raspberry Pi OS and I2C/SPI enabled.
 
 ### Installing
 
